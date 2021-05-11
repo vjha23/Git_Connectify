@@ -1,0 +1,20 @@
+.sidebar{
+    grid-area: sidebar;
+    overflow: scroll;
+}
+.sidebarOption{
+    display: flex;
+    margin: 30px 0;
+    padding: 10px 15px;
+    height: 50px;
+    align-items: center;
+    border-radius: 20px;
+     box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+}
+.sidebarOption:hover,.sidebartitle:hover{
+   background-color:whitesmoke;
+    font-weight: 600 !important;
+}
+.sidebartitle{
+    margin-left: 20px;
+}

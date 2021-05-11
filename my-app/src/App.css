@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 0.4fr 1fr;
+  grid-template-rows: 0.2fr 1.7fr;
+  grid-template-areas: 
+  "navbar navbar"
+  "sidebar posts";
+  grid-gap:10px
+  
+}
+.cardContainer{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 0.4fr 1fr;
+  grid-template-rows: 0.2fr 1.7fr;
+  grid-template-areas: 
+  "navbar navbar"
+  "sidebar posts";
+  grid-gap:10px
+}
+.uploadPost{
+  /* border: 1px solid red; */
+  display: grid;
+  place-items: center;
+  background-color: whitesmoke;
+}

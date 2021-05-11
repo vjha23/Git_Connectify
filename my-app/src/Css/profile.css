@@ -1,0 +1,33 @@
+.profileDetails{
+    display: flex;
+  
+}
+.userDetails{
+    width: 100% !important;
+}
+.Details{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.userImages{
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 50px;
+}
+.name__Section{
+    padding: 25px ;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin:10px 0
+}
+.btn__profile{
+    margin-top: 20px;
+}
+.imageWidth{
+    max-height: 100%;
+    max-width: 100%;
+}

@@ -1,0 +1,55 @@
+.navbar{
+    grid-area: navbar;
+}
+.navbar__Content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 15px;
+    border-bottom: 3px solid whitesmoke;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+   
+}
+.image__logo{
+    height: 70px;
+    object-fit: cover;
+}
+.nav__left{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.icon{
+    width: 60px;
+    height: 60px;
+
+}
+
+.IconContainer{
+    flex: 1;
+    margin: 0 100px;
+}
+.iconControl{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar__InputContainer{
+    display: flex;
+    align-items: center;
+   
+    border-radius: 5px;
+    /* border: 1px solid white; */
+    flex: 1;
+}
+.navbar__InputContainer>input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline-width: 0;
+    font-size: medium;
+    background-color: transparent;
+}

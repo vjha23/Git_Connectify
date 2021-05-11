@@ -1,0 +1,97 @@
+.signin_Container{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "left right"
+    "left right";
+
+}
+
+.signInLeft{
+    /* border: 1px solid red; */
+    grid-area: left;
+    height: 100vh;
+     overflow: hidden;
+    
+}
+.signIn_Right{
+    /* border: 1px solid blue; */
+    grid-area: right;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+     background-color: whitesmoke;
+}
+/* .imageContainer{
+    border: 3px solid black;
+    height: 100vh;
+    width: 700px;
+} */
+.imageSocial{
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+.formCard{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 400px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.95);
+     border-radius: 20px;
+      background-color: #fff;
+}
+.inputContainer{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    margin: 10px 0;
+     outline-width: 0;
+     /* border: none; */
+      /* border:1px solid purple; */
+     /* outline-color:#FF0; */
+     border-bottom: 1px solid purple;
+  
+}
+
+.formElement{
+    margin:40px 0;
+    /* border: 1px solid green; */
+    padding: 10px;
+    width: 280px;
+
+}
+.formElement2{
+     /* border: 1px solid green; */
+      margin:70px 0;
+       padding: 10px;
+}
+.buttonContainer{
+    width: 280px;
+    height: 40px;
+    border-radius: 30px;
+    color: rgb(192, 3, 192);
+    outline-width: 0;
+     box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+}
+.header_Title{
+    margin: 0 40px;
+    /* border: 1px solid green; */
+}
+.signinfooter{
+    margin-top: 20px;
+    
+    text-align: center;
+    
+}
+.register_footer{
+     text-decoration: none;  
+     color:rgb(192, 3, 192);
+}
+
+
+
